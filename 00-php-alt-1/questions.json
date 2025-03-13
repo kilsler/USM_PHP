@@ -1,0 +1,41 @@
+{
+    "questions": [
+      {
+        "question": "Какой язык программирования считается основным для разработки Android-приложений?",
+        "options": ["Python", "Kotlin", "Swift", "C#"],
+        "answer_type": "one",
+        "correct_answer": "Kotlin"
+      },
+      {
+        "question": "Какие структуры данных относятся к линейным?",
+        "options": ["Стек", "Граф", "Очередь", "Дерево"],
+        "answer_type": "many",
+        "correct_answer": ["Стек", "Очередь"]
+      },
+      {
+        "question": "Какие языки программирования используются для веб-разработки?",
+        "options": ["Python", "JavaScript", "HTML", "C++"],
+        "answer_type": "many",
+        "correct_answer": ["JavaScript", "HTML"]
+      },
+      {
+        "question": "Какие из перечисленных технологий относятся к базам данных?",
+        "options": ["MySQL", "MongoDB", "React", "Redis"],
+        "answer_type": "many",
+        "correct_answer": ["MySQL", "MongoDB", "Redis"]
+      },
+      {
+        "question": "Какой принцип не относится к ООП?",
+        "options": ["Инкапсуляция", "Полиморфизм", "Абстракция", "Рекурсия"],
+        "answer_type": "one",
+        "correct_answer": "Рекурсия"
+      },
+      {
+        "question": "Что означает аббревиатура 'CPU'?",
+        "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Unit", "Control Processing Unit"],
+        "answer_type": "one",
+        "correct_answer": "Central Processing Unit"
+      }
+    ]
+  }
+  
