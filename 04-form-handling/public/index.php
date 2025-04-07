@@ -24,6 +24,7 @@ $latestRecipes = array_slice($recipes, -2);
             </ul>
         </div>
     <?php endforeach; ?>
+    <a href='/recipe/create.php' type="button" class="btn btn-primary w-50 container ">Добавить рецепт</a>
 </div>
 
 <?php
