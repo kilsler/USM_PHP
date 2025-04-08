@@ -37,7 +37,7 @@ if (isset($_GET['page'])) {
       <a class="page-link" href="<?php echo "/recipe/index.php"."?page=".($page-1) ?>" <?php if($page == 1) echo 'disabled' ?>>Prev Page</a>
 
     </li>
-    <li class="page-item <?php if($page == round( (count($recipes)/3))) echo 'disabled' ?>">
+    <li class="page-item <?php if($page == ceil( (count($recipes)/3))) echo 'disabled' ?>">
       <a class="page-link" href="<?php  echo "/recipe/index.php"."?page=".($page+1) ?>" <?php if($page == 3) echo 'disabled' ?>>Next Page</a>
     </li>
   </ul>
