@@ -87,7 +87,7 @@ CREATE TABLE categories (
 ```
 
 ## Краткая документация к проекту
-PHP приложение с подключением к Mysql :  
+### PHP приложение с подключением к Mysql :  
 `/public/index.php`- главня страница с маршрутизацией;  
 `/src/db.php`- функции бд(Все запросы осуществляются тут)  
 `/src/helpers.php`- вспомогательные функции для формы.  
@@ -105,7 +105,7 @@ PHP приложение с подключением к Mysql :
 `/templates/recipe/delete.php`- страница с удалением рецепта.  
 `/templates/recipe/edit.php`- страница с формой для изменения(в поля автоматически подставляются значения текущего рецепта).  
 `/templates/recipe/index.php`- страница для отображения 1 рецепта с возможностью переключитьяс на изменения и удаление.  
-Spring Api с подключением к mongodb:
+### Spring Api с подключением к mongodb:
 `/controller/CommentController.java` - контроллер для обработки запросов на API.  
 `/entity/Comment.java` -  Entity структура используемой коллекции.  
 `/repository/CommentRepository.java` - репозиторий, расширяет MongoRepository для удобной работы с MongoDB.  
