@@ -73,7 +73,7 @@ handleCreateForm();
             </div>
         <?php endif; ?>
 
-        <button class="btn btn-primary" type="button" onclick="addStep()">Добавить шаг</button>
+        <button class="btn btn-warning" type="button" onclick="addStep()">Добавить шаг</button>
     </div>
-    <button class="btn btn-primary" type="submit">Отправить</button>
+    <button class="btn btn-warning" type="submit">Отправить</button>
 </form>
